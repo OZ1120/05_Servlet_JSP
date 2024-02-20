@@ -36,7 +36,7 @@ public class ExampleServlet extends HttpServlet{
 		case "불고기" : price += 12000; break;
 		case "컴비네이션" : price += 13000; break;
 		case "페퍼로니" : price += 14000; break;
-		case "하와이안" : price += 16000; break;
+		case "하와이안" : price += 15000; break;
 		}
 		
 		if(crust.equals("swp")) price+= 500;
@@ -71,8 +71,8 @@ public class ExampleServlet extends HttpServlet{
 		sb.append("	<body>");
 		sb.append("<h2>주문 내역 </h2>");
 		
-		sb.append(String.format("<h3>주문자명 : </h3> %s", name));
-		sb.append(String.format("<h3>주소 : </h3> %s", address));
+		sb.append(String.format("<h3>주문자명 :  %s</h3>", name));
+		sb.append(String.format("<h3>주소 :  %s</h3>", address));
 		
 		sb.append("		<ul>");
 		String temp = crust.equals("normal") ? "일반" : "고구마";
