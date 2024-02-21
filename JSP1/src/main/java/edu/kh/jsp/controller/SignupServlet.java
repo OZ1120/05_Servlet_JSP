@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 // @WebServlet ("주소")
 // 1) 현재 클래스를 Servlet으로 등록 (서버 실행시 자동으로 객체화 됨)
-// 2) ("주소")와 Servlet을 매핑해서 요청/응답 어리할 수 있게 함
+// 2) ("주소")와 Servlet을 매핑해서 요청/응답 처리할 수 있게 함
 @WebServlet("/signup")
 public class SignupServlet extends HttpServlet{
 
