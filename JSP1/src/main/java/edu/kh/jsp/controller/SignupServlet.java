@@ -51,14 +51,14 @@ public class SignupServlet extends HttpServlet{
 		// 1) JSP 파일 작성
 		// -> src/webapp/WEB-INF/views 폴더에 작성
 		
-		// 2) Servlet이 요청 받을 때 생성된
-		//	HttpServletReqeuest, HttpSerlteEoson 객체를
+		// 2) Servlet이 요청될 때 생성된
+		//	HttpServletReqeuest, HttpServletRespose 객체를
 		//  응답 화면을 대신 만들어서 응답해줄 JSP에서 전달
 		// == 요청 위임(forward)
 		
 		// * RequestDispatcher 객체 *
 		// - 어떤 JSP로 요청을 위임할지 지정하고 발송해주는 객체
-		//	-> HttpServletReqeust 내장되어 이음
+		//	-> HttpServletReqeust 내장되어 있음
 		
 		//요청 위임할 JSP 경로 작성
 		// -> Src/main/webapp 폴더를 기준으로 해서 파일 경로 작성

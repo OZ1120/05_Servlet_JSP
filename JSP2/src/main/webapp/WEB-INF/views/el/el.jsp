@@ -30,12 +30,14 @@
 	  
 	  
 	  <li>
-	  	DT) : ${book1}
+	  	DTO : ${book1}
 	  	<ul>
+	  		<!-- 필드가 여러개있는데... -->
 	  		<%-- ${K.필드명} : 객체의 필드값을 얻어오기 위한 getter 호출 --%>
 	  		<!-- **** EL을 이용해서 필드 값을 얻어오려면 getter가 필수!! **** -->
+	  		<!-- Book.java 에 getter 만들어뒀음 -->
 	  		
-	  		<li>${book1.title}</li><!-- book1.getTitle() -->
+	  		<li>${book1.title}</li><!-- == book1.getTitle() -->
 	  		<li>${book1.writer}</li>
 	  		<li>${book1.price}</li>
 	  		
