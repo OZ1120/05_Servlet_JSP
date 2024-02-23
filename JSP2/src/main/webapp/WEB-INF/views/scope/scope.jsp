@@ -49,7 +49,7 @@
 	
 	<h2> \${ OOOscope.key }</h2>
 	<pre>
-		- OOO 자리에는 각 xcope 작성
+		- OOO 자리에는 각 scope 작성
 		- 해당 scope에 존재하는 key를 찾아서 value 출력
 		  (scope를 구분!)
 	</pre>

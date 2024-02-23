@@ -27,7 +27,7 @@ public class ELServlet extends HttpServlet{
 		// - 추가된 속성 값은 위임 받은 JSP에서
 		//	 ${K} 형태로 작성하면 출력 시 해당 위치에 V가 출력됨
 		
-		// 기본 자료형
+		// 기본 자료형 
 		req.setAttribute("score", 90);
 		
 		// String
