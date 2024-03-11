@@ -13,6 +13,7 @@
 	.detail{
 		white-space: pre-wrqp;
 	}
+	
 </style>
 
 </head>
